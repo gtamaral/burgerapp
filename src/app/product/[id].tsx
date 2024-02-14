@@ -1,5 +1,5 @@
 import { Image, View, Text } from "react-native";
-import { useLocalSearchParams, useNavigation } from "expo-router";
+import { Redirect, useLocalSearchParams, useNavigation } from "expo-router";
 import { PRODUCTS } from "@/src/utils/data/products";
 import FormatCurrency from "@/src/utils/functions/format-currency";
 import { Button } from "@/src/components/button";
@@ -13,14 +13,18 @@ const Product = () => {
 
     const cartStore = useCartStore()
 
-    const product = PRODUCTS.filter((item) => item.id === id)[0]
+    const product = PRODUCTS.find((item) => item.id === id)
 
     console.log(cartStore.products)
 
     const handleAddtoCart = () => {
-        cartStore.add(product)
+        cartStore.add(product!)
         navigation.goBack()
         
+    }
+
+    if(!product) {
+        return<Redirect href="/"/>
     }
     return ( 
         <View className="flex-1">

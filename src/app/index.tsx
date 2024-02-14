@@ -1,6 +1,6 @@
 import { FlatList, View, SectionList, Text } from "react-native";
 
-import {CATEGORIES, MENU} from "../utils/data/products"
+import {CATEGORIES, MENU, ProductProps} from "../utils/data/products"
 import Header from "../components/header";
 import CategoryButton from "../components/category-buttom";
 import { useState, useRef } from "react";
@@ -14,7 +14,7 @@ export default function Home() {
 
     const [category, setCategory] = useState(CATEGORIES[0])
 
-    const sectionListRef = useRef<SectionList>(null)
+    const sectionListRef = useRef<SectionList<ProductProps>>(null)
 
     const cartStore = useCartStore()
 
@@ -62,7 +62,7 @@ export default function Home() {
                  keyExtractor={(item) => item.id}
                  stickySectionHeadersEnabled={false}
                  renderItem={({item}) => (
-                    <Link href={`/product/${item.id}`} asChild><Product data={item}/></Link>
+                    <Link href={`/product/${item.id}`} asChild><Product data={item} key={item.id}/></Link>
                  )}
                  renderSectionHeader={({section: {title}}) => <Text className="title-xl text-white font-heading mt-8 mb-3">
                     {title}
