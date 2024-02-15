@@ -38,7 +38,7 @@ const Product = () => {
                 <View className="flex-row justify-between">
                     <Text className="text-white font-bold font-heading text-2xl">{product.title}</Text>
 
-                    <Text className="text-lime-400 text-2xl font-heading">
+                    <Text className="text-yellow-400 text-2xl font-heading">
                         {FormatCurrency(product.price)}
                     </Text>
                 </View>

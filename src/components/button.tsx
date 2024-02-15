@@ -18,7 +18,7 @@ type ButtonIconProps = {
 
 const Button = ({children, ...rest}: ButtonProps) => {
     return ( 
-        <TouchableOpacity {...rest} className="h-12 bg-lime-400 rounded-md flex-row items-center justify-center" activeOpacity={0.7}>
+        <TouchableOpacity {...rest} className="h-12 bg-yellow-400 rounded-md flex-row items-center justify-center" activeOpacity={0.7}>
             {children}
         </TouchableOpacity>
      );

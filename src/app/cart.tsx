@@ -42,12 +42,12 @@ const Cart = () => {
         
 
         const message = `
-         NOVO PEDIDO 
-         \n Entregar em: ${address} 
+         🍔 NOVO PEDIDO 🍔
+         \n -Entregar em: ${address} 
          
          ${products} 
          
-         \n Valor total: ${total}
+         \n -Valor total: ${total}
          
          `
         
@@ -85,7 +85,7 @@ const Cart = () => {
 
             <View className="flex-row gap-2 items-center mt-5 mb-4">
                 <Text className="text-white text-xl font-subtitle">Total:</Text>
-                <Text className="text-lime-400 text-xl font-subtitle">{total}</Text>
+                <Text className="text-yellow-400 text-xl font-subtitle">{total}</Text>
             </View>
 
             <Input 
