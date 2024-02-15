@@ -54,7 +54,7 @@ const Product = () => {
                 </View> */}
 
                 {product.ingredients.map((ingredient) => (
-                    <Text className="text-base text-slate-300 font-body leading-5"> {"\u2022"} {ingredient}</Text>
+                    <Text key={ingredient} className="text-base text-slate-300 font-body leading-5"> {"\u2022"} {ingredient}</Text>
                 ))}
 
             </View>

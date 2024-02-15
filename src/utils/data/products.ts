@@ -119,7 +119,7 @@ const MENU = [
     data: [
       {
         id: "7",
-        title: "Hmmm, coquinha!",
+        title: "Coca-cola",
         price: 6.9,
         thumbnail: require("../../assets/products/thumbnail/7.png"),
         cover: require("../../assets/products/cover/7.png"),
