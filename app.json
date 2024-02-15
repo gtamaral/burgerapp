@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "nlw-burgerapp",
-    "slug": "nlw-burgerapp",
+    "name": "burgerapp",
+    "slug": "burgerapp",
+    "description": "This is an awesome app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -35,6 +36,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ad04f9d9-115c-48a1-8f0b-34a06f3cd3ac"
+      }
+    },
+    "owner": "gtamaral",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ad04f9d9-115c-48a1-8f0b-34a06f3cd3ac"
     }
   }
 }
