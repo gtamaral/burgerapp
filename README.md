@@ -7,11 +7,11 @@
 
 
 
-## 📄 Explicação
+## Explicação
 
 O projeto foi desenvolvido durante a trilha do NLW da Rocketseat sobre React Native. O intuito foi desenvolver algo que melhorasse a experiência de pedidos em hamburguerias. Com uma interface amigável, o aplicativo exibe o cardápio da lanchonete, permitindo que os usuários adicionem itens ao carrinho e enviem seus pedidos diretamente para a lanchonete em forma de mensagem. O objetivo é simplificar o processo de pedido, tornando-o mais rápido, eficiente e agradável para os usuários.
 
-## 📁 Páginas
+## Páginas
 
 O "Burger App" inclui as seguintes telas e funcionalidades principais:
 
@@ -21,13 +21,13 @@ O "Burger App" inclui as seguintes telas e funcionalidades principais:
 
 - **Carrinho**: Mostra todos os itens adicionados ao carrinho pelo usuário. Inclui um input para que os usuários possam fornecer o endereço de entrega. Ao finalizar, o pedido é enviado como uma mensagem de texto para o WhatsApp da lanchonete, contendo os itens, quantidades e o endereço de entrega.
 
-- ## 🚀 Tecnologias Utilizadas
+- ## Tecnologias Utilizadas
 Este projeto foi desenvolvido utilizando:
 - **React Native**: Para a criação de uma experiência de usuário fluida e responsiva em dispositivos móveis.
 - **Tailwind CSS**: Para um design de interface elegante e adaptativo, facilitando a personalização do layout.
 - **TypeScript**: Para melhorar a segurança do código através da tipagem estática.
 
-- # 📕 Como usar?
+- # Como usar?
 
 Antes de iniciar, você precisa ter [Git](https://git-scm.com)
 
@@ -42,6 +42,7 @@ $ yarn or npm install
 $ yarn start or npm start
 # The server will initialize in the <http://localhost:3000>
 ```
+
 ## Contribuição
 Sua contribuição é muito bem-vinda! Se deseja contribuir, siga estes passos:
 - Faça um fork do repositório.
