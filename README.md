@@ -29,7 +29,7 @@ O "Burger App" inclui as seguintes telas e funcionalidades principais:
 
 - **Carrinho**: Mostra todos os itens adicionados ao carrinho pelo usuário. Inclui um input para que os usuários possam fornecer o endereço de entrega. Ao finalizar, o pedido é enviado como uma mensagem de texto para o WhatsApp da lanchonete, contendo os itens, quantidades e o endereço de entrega.
 
-- ## Tecnologias Utilizadas
+## Tecnologias Utilizadas
 Este projeto foi desenvolvido utilizando:
 - **React Native**: Para a criação de uma experiência de usuário fluida e responsiva em dispositivos móveis.
 - **Tailwind CSS**: Para um design de interface elegante e adaptativo, facilitando a personalização do layout.
