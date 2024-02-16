@@ -8,17 +8,17 @@
   <tr>
     <td align="center">
       <a href="#">
-        <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgerappedit.png" alt="Logo da Minha Empresa" height="320" widht="300">
+        <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgerappedit.png" alt="Logo da Minha Empresa" height="300" widht="300">
       </a>
     </td>
     <td align="center">
       <a href="#">
-       <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgercart.png" alt="Logo da Minha Empresa" height="320" widht="300">
+       <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgercart.png" alt="Logo da Minha Empresa" height="300" widht="300">
       </a>
     </td>
     <td align="center">
       <a href="#">
-       <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgerid.png" alt="Logo da Minha Empresa" height="320" widht="300">
+       <img align="center" src="https://github.com/gtamaral/burgerapp/blob/main/assets/images/burgerid.png" alt="Logo da Minha Empresa" height="300" widht="300">
       </a>
     </td>
   </tr>
