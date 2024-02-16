@@ -11,7 +11,7 @@
 O projeto foi desenvolvido durante a trilha do NLW da Rocketseat sobre React Native. O intuito foi desenvolver algo que melhorasse a experiência de pedidos em hamburguerias. Com uma interface amigável, o aplicativo exibe o cardápio da lanchonete, permitindo que os usuários adicionem itens ao carrinho e enviem seus pedidos diretamente para a lanchonete em forma de mensagem. O objetivo é simplificar o processo de pedido, tornando-o mais rápido, eficiente e agradável para os usuários.
 
 
-# Requisitos Funcionais 
+## Requisitos Funcionais 
 
 - [x] **Ilustração do cardápio**
 - [x] **Filtro do cardápio** 
